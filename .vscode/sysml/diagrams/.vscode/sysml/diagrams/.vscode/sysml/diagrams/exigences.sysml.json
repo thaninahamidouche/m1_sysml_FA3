@@ -1,0 +1,5 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {"exigencesMaisonIntelligente":{"gv":{"gvViews":{"group":{"hiddenElements":[]}}}},"maisonIntelligente":{"gv":{"gvViews":{"group":{"expandedElements":["maisonIntelligente::requirements"]},"tree":{"expandedElements":["maisonIntelligente::requirements"]}},"gvMode":"tree"}}}
+}

@@ -1,88 +1,86 @@
 
 package maisonIntelligente {
 
-    package parts {
+    package requirements {
 
-        /* Acteurs externes */
-        part def Habitant;
-        part def TechnicienMaintenance;
-
-        /* Systeme et environnement */
-        part def SystemeGestionEnergetique;
-        part def Batterie;
-        part def PanneauPhotovoltaique;
-        part def EquipementConnecte;
-        part def Capteur;
-        part def ServiceMeteo;
-    }
-
-    package utilisationHabitants {
-
-        private import maisonIntelligente::parts::*;
-
-        actor habitant: Habitant;
-
-        use case gererCalendrierPreferences {
-            ref actor habitant;
-        }
- use case gererLeModeAutomatique {
-            ref actor habitant;
+        requirement gererCalendrierPreferences specializes fonctions {
+            doc /* l'habitant doit pouvoir gerer son calendrier et ses preferences energetiques */
         }
 
-        use case consulterSituationEnergetique {
-            ref actor habitant;
+        requirement gererModeAutomatique specializes fonctions {
+            doc /* l'habitant doit pouvoir activer ou desactiver le mode automatique */
         }
 
-        use case simulerChangementProgramme {
-            ref actor habitant;
+        requirement consulterSituationEnergetique specializes fonctions {
+            doc /* l'habitant doit pouvoir consulter la consommation, la production solaire et l'etat de la batterie */
         }
 
-        use case comparerSolutions {
-            ref actor habitant;
+        requirement simulerChangementProgramme specializes fonctions {
+            doc /* l'habitant doit pouvoir simuler les consequences energetiques d'un changement de programme */
         }
 
-        use case validerProposition {
-            ref actor habitant;
-        }
-    }
-
-    package gestionAutomatique {
-
-        action prevoirBesoinsRessources;
-
-        action planifierUsagesEnergetiques;
-
-        action gererBatterie;
-
-        action piloterEquipementsConnectes;
-
-        action adapterPlanningTempsReel;
-    }
-
-    package maintenance {
-
-        private import maisonIntelligente::parts::*;
-
-        actor technicien: TechnicienMaintenance;
-
-        use case consulterEtatSysteme {
-            ref actor technicien;
+        requirement comparerSolutions specializes fonctions {
+            doc /* l'habitant doit pouvoir comparer plusieurs solutions pour satisfaire un meme besoin */
         }
 
-        use case diagnostiquerPanne {
-            ref actor technicien;
+        requirement validerProposition specializes fonctions {
+            doc /* l'habitant doit pouvoir valider une proposition energetique */
         }
 
-        use case configurerEquipements {
-            ref actor technicien;
+        requirement prevoirBesoinsRessources specializes gestionEnergetique {
+            doc /* le systeme doit prevoir les besoins et les ressources energetiques disponibles */
         }
 
-        use case mettreAJourLogiciel {
-            ref actor technicien;
+        requirement planifierUsagesEnergetiques specializes gestionEnergetique {
+            doc /* le systeme doit planifier les usages energetiques du logement */
         }
 
-        use case verifierFonctionnement {
-            ref actor technicien;
+        requirement gererBatterie specializes gestionEnergetique {
+            doc /* le systeme doit gerer la charge et la decharge de la batterie */
+        }
+
+        requirement piloterEquipementsConnectes specializes gestionEnergetique {
+            doc /* le systeme doit piloter les equipements connectes */
+        }
+
+        requirement adapterPlanningTempsReel specializes gestionEnergetique {
+            doc /* le systeme doit adapter le planning en fonction des donnees recues en temps reel */
+        }
+
+        requirement consulterEtatSysteme specializes maintenance {
+            doc /* le technicien doit pouvoir consulter l'etat du systeme */
+        }
+
+        requirement diagnostiquerPanne specializes maintenance {
+            doc /* le technicien doit pouvoir diagnostiquer une panne */
+        }
+
+        requirement configurerEquipements specializes maintenance {
+            doc /* le technicien doit pouvoir configurer les equipements connectes */
+        }
+
+        requirement mettreAJourLogiciel specializes maintenance {
+            doc /* le technicien doit pouvoir mettre a jour le logiciel */
+        }
+
+        requirement verifierFonctionnement specializes maintenance {
+            doc /* le technicien doit pouvoir verifier le fonctionnement apres une intervention */
+        }
+
+        requirement fonctions specializes specificationsMaison {
+            doc /* le systeme doit permettre aux habitants de gerer leurs besoins energetiques */
+        }
+
+        requirement gestionEnergetique specializes specificationsMaison {
+            doc /* le systeme doit assurer la gestion energetique automatique du logement */
+        }
+
+        requirement maintenance specializes specificationsMaison {
+            doc /* le systeme doit permettre les operations de maintenance */
+        }
+
+        requirement specificationsMaison {
+            doc /* le systeme doit assurer la gestion intelligente de l'energie du logement */
         }
     }
 }

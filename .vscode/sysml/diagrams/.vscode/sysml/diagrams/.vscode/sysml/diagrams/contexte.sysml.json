@@ -1,0 +1,231 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "maisonIntelligente": {
+      "iv": {
+        "layout": {
+          "maisonIntelligente::contexte": {
+            "x": -11.203259900679882,
+            "y": 16,
+            "parentKey": null,
+            "w": 910.0780614628045,
+            "h": 758
+          },
+          "maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "x": 396.6506607524551,
+            "y": 360.90537444996227,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 191,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::habitants": {
+            "x": 726.0780614628045,
+            "y": 123.40651980135979,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::technicienMaintenance": {
+            "x": 369.99171795638335,
+            "y": 127.52687224981113,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::panneauxPhotovoltaiques": {
+            "x": 49.20325990067988,
+            "y": 131.64722469826248,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::batterie": {
+            "x": 41.135506600453255,
+            "y": 236.3096035485269,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::equipementsConnectes": {
+            "x": 45.32475770052879,
+            "y": 550.4345374025685,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::capteurs": {
+            "x": 311.3422025553258,
+            "y": 579.690396451473,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::serviceMeteo": {
+            "x": 16,
+            "y": 374.34819389614734,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::reseauElectrique": {
+            "x": 677.9016738119357,
+            "y": 531.376211497356,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "connect:maisonIntelligente::contexte::habitants->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 798.8748015621246,197.4065198013598L 480.9474008517752,376.90537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 798.8748015621246,
+              "y": 197.4065198013598
+            },
+            "targetPoint": {
+              "x": 480.9474008517752,
+              "y": 376.90537444996227
+            },
+            "label": {
+              "x": 639.91110120695,
+              "y": 287.15594712566104
+            }
+          },
+          "connect:maisonIntelligente::contexte::technicienMaintenance->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.125",
+            "path": "M 526.7884580557035,172.52687224981113L 385.4474008517752,384.15537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 526.7884580557035,
+              "y": 172.52687224981113
+            },
+            "targetPoint": {
+              "x": 385.4474008517752,
+              "y": 384.15537444996227
+            },
+            "label": {
+              "x": 456.11792945373935,
+              "y": 278.3411233498867
+            }
+          },
+          "connect:maisonIntelligente::contexte::panneauxPhotovoltaiques->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.250",
+            "path": "M 215,176.64722469826248L 385.4474008517752,391.40537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 215,
+              "y": 176.64722469826248
+            },
+            "targetPoint": {
+              "x": 385.4474008517752,
+              "y": 391.40537444996227
+            },
+            "label": {
+              "x": 300.2237004258876,
+              "y": 284.0262995741124
+            }
+          },
+          "connect:maisonIntelligente::contexte::batterie->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.375",
+            "path": "M 197.93224669977337,281.30960354852687L 385.4474008517752,398.65537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 197.93224669977337,
+              "y": 281.30960354852687
+            },
+            "targetPoint": {
+              "x": 385.4474008517752,
+              "y": 398.65537444996227
+            },
+            "label": {
+              "x": 291.6898237757743,
+              "y": 339.98248899924454
+            }
+          },
+          "connect:maisonIntelligente::contexte::equipementsConnectes->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.625",
+            "path": "M 202.1214977998489,595.4345374025685L 385.4474008517752,413.15537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 202.1214977998489,
+              "y": 595.4345374025685
+            },
+            "targetPoint": {
+              "x": 385.4474008517752,
+              "y": 413.15537444996227
+            },
+            "label": {
+              "x": 293.78444932581203,
+              "y": 504.2949559262654
+            }
+          },
+          "connect:maisonIntelligente::contexte::capteurs->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.750",
+            "path": "M 468.1389426546459,624.690396451473L 385.4474008517752,420.40537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 468.1389426546459,
+              "y": 624.690396451473
+            },
+            "targetPoint": {
+              "x": 385.4474008517752,
+              "y": 420.40537444996227
+            },
+            "label": {
+              "x": 426.7931717532106,
+              "y": 522.5478854507177
+            }
+          },
+          "connect:maisonIntelligente::contexte::serviceMeteo->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 172.79674009932012,419.34819389614734L 385.4474008517752,405.90537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 172.79674009932012,
+              "y": 419.34819389614734
+            },
+            "targetPoint": {
+              "x": 385.4474008517752,
+              "y": 405.90537444996227
+            },
+            "label": {
+              "x": 279.1220704755477,
+              "y": 412.62678417305483
+            }
+          },
+          "connect:maisonIntelligente::contexte::reseauElectrique->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "top",
+            "targetHandle": "bottom",
+            "path": "M 750.6984139112558,547.376211497356L 480.9474008517752,434.90537444996227",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 750.6984139112558,
+              "y": 547.376211497356
+            },
+            "targetPoint": {
+              "x": 480.9474008517752,
+              "y": 434.90537444996227
+            },
+            "label": {
+              "x": 615.8229073815155,
+              "y": 491.14079297365913
+            }
+          }
+        }
+      }
+    }
+  }
+}
