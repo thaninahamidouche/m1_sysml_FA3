@@ -1,5 +1,0 @@
-{
-  "version": 9,
-  "structuredDefaults": "inherited",
-  "anchors": {"exigencesMaisonIntelligente":{"gv":{"gvViews":{"group":{"expandedElements":[]}}}},"istaLabs":{"gv":{"gvViews":{"group":{"expandedElements":["istaLabs::requirements"]}}}}}
-}
