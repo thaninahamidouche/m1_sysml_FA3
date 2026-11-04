@@ -1,0 +1,837 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "fluxActionsMaisonIntelligente": {
+      "afv": {
+        "layout": {
+          "fluxActionsMaisonIntelligente::comparerSolutions": {
+            "x": 22,
+            "y": 22,
+            "parentKey": null,
+            "w": 1381,
+            "h": 1624
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme": {
+            "x": 1451,
+            "y": 20,
+            "parentKey": null,
+            "w": 810.1955958703704,
+            "h": 2174
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/__initial__": {
+            "x": 1067,
+            "y": 802,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 12,
+            "h": 12
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::analyserBesoin": {
+            "x": 989,
+            "y": 896,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::rechercherSolutions": {
+            "x": 989,
+            "y": 1036,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::evaluerSolutions": {
+            "x": 582,
+            "y": 1306,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::afficherComparaison": {
+            "x": 808,
+            "y": 1306,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::afficherIndisponibilite": {
+            "x": 347,
+            "y": 1306,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 177,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::enregistrerChoix": {
+            "x": 1191,
+            "y": 1306,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0": {
+            "x": 1027,
+            "y": 1176,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 92,
+            "h": 48
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide1": {
+            "x": 1034,
+            "y": 1306,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 92,
+            "h": 48
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions/__final__": {
+            "x": 1150,
+            "y": 1446,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 16,
+            "h": 16
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions::besoinExprime": {
+            "x": 22,
+            "y": 1544,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 177,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions::solutionsDisponibles": {
+            "x": 223,
+            "y": 1544,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 225,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions::aucuneSolution": {
+            "x": 472,
+            "y": 1544,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 184,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions::solutionValidee": {
+            "x": 680,
+            "y": 1544,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 191,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::comparerSolutions::annulation": {
+            "x": 895,
+            "y": 1544,
+            "parentKey": "fluxActionsMaisonIntelligente::comparerSolutions",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/__initial__": {
+            "x": 457,
+            "y": 40,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 12,
+            "h": 12
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherFormulaireModification": {
+            "x": 354.04566815302906,
+            "y": 294.1381793007466,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 225,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::estimerConsequencesEnergetiques": {
+            "x": 347,
+            "y": 1306,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 232,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherResultatsSimulation": {
+            "x": 374.68267261211554,
+            "y": 829.4262863188347,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 205,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::appliquerModification": {
+            "x": 559.8340563956353,
+            "y": 1116.6532809404168,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::merge0": {
+            "x": 422,
+            "y": 134,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 82,
+            "h": 48
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::decide0": {
+            "x": 403.81732738788423,
+            "y": 1045.4365473493938,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 92,
+            "h": 48
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/__final__": {
+            "x": 441.6361292102906,
+            "y": 1238.4396221111942,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 16,
+            "h": 16
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme::demandeSimulation": {
+            "x": 22,
+            "y": 1117.0888153208357,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 205,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme::annulation": {
+            "x": 25.850072282658402,
+            "y": 1367.0584201093804,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme::validation": {
+            "x": 26.383992019092375,
+            "y": 1285.5970392124523,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 168,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme::nouvelleSimulation": {
+            "x": 22,
+            "y": 1192,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 211,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::recupererDonneesEnergetiques": {
+            "x": 368.94576004897635,
+            "y": 522.29483409445,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 211,
+            "h": 58
+          },
+          "fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::calculerConsequencesEnergetiques": {
+            "x": 335.44894727271935,
+            "y": 686.5373351693569,
+            "parentKey": "fluxActionsMaisonIntelligente::simulerChangementProgramme",
+            "w": 239,
+            "h": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {"succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::decide0->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::merge0:[nouvelleSimulation]":[{"x":2209,"y":1092},{"x":2202,"y":191}]},
+        "edgeAnchors": {"succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::decide0->fluxActionsMaisonIntelligente::simulerChangementProgramme/__final__:[annulation]":{"pill":{"t":0.9658363903740381,"along":0,"across":50.75}}},
+        "edgeGeometry": {
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/__initial__->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::analyserBesoin:[besoinExprime]": {
+            "caption": {
+              "x": 1038.5,
+              "y": 849,
+              "lines": [
+                "[besoinExprime]"
+              ],
+              "width": 113,
+              "height": 18,
+              "text": "[besoinExprime]",
+              "source": {
+                "x": 1095,
+                "y": 836
+              },
+              "target": {
+                "x": 1095,
+                "y": 918
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1095,836L 1095,918",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1095,
+              "y": 836
+            },
+            "targetPoint": {
+              "x": 1095,
+              "y": 918
+            },
+            "label": {
+              "x": 1095,
+              "y": 877
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::analyserBesoin->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::rechercherSolutions": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1095,976L 1095,1058",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1095,
+              "y": 976
+            },
+            "targetPoint": {
+              "x": 1095,
+              "y": 1058
+            },
+            "label": {
+              "x": 1095,
+              "y": 1017
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::rechercherSolutions->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1095,1116L 1095,1198",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1095,
+              "y": 1116
+            },
+            "targetPoint": {
+              "x": 1095,
+              "y": 1198
+            },
+            "label": {
+              "x": 1095,
+              "y": 1157
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::afficherIndisponibilite:[aucuneSolution]": {
+            "caption": {
+              "x": 557.8681038386973,
+              "y": 1290.2611682047304,
+              "lines": [
+                "[aucuneSolution]"
+              ],
+              "width": 120,
+              "height": 18,
+              "text": "[aucuneSolution]",
+              "source": {
+                "x": 1049,
+                "y": 1222
+              },
+              "target": {
+                "x": 457.5,
+                "y": 1328
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "left",
+            "targetHandle": "top",
+            "path": "M 1049,1222L 457.5,1328",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1049,
+              "y": 1222
+            },
+            "targetPoint": {
+              "x": 457.5,
+              "y": 1328
+            },
+            "label": {
+              "x": 753.25,
+              "y": 1275
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::evaluerSolutions:[solutionsDisponibles]": {
+            "caption": {
+              "x": 755.6866271924332,
+              "y": 1272.1761586491905,
+              "lines": [
+                "[solutionsDisponibles]"
+              ],
+              "width": 157,
+              "height": 18,
+              "text": "[solutionsDisponibles]",
+              "source": {
+                "x": 1095,
+                "y": 1246
+              },
+              "target": {
+                "x": 688,
+                "y": 1328
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 1
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1095,1246L 688,1328",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1095,
+              "y": 1246
+            },
+            "targetPoint": {
+              "x": 688,
+              "y": 1328
+            },
+            "label": {
+              "x": 891.5,
+              "y": 1287
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::afficherComparaison": {
+            "sourceHandle": "bottom:0.250",
+            "targetHandle": "top",
+            "path": "M 1072,1234L 914,1328",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1072,
+              "y": 1234
+            },
+            "targetPoint": {
+              "x": 914,
+              "y": 1328
+            },
+            "label": {
+              "x": 993,
+              "y": 1281
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide1": {
+            "sourceHandle": "bottom:0.750",
+            "targetHandle": "top",
+            "path": "M 1118,1234L 1102,1328",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1118,
+              "y": 1234
+            },
+            "targetPoint": {
+              "x": 1102,
+              "y": 1328
+            },
+            "label": {
+              "x": 1110,
+              "y": 1281
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0->fluxActionsMaisonIntelligente::comparerSolutions/__final__:[annulation]": {
+            "caption": {
+              "x": 1069.1608485362913,
+              "y": 1331.7916623323008,
+              "lines": [
+                "[annulation]"
+              ],
+              "width": 95,
+              "height": 18,
+              "text": "[annulation]",
+              "source": {
+                "x": 1060.5,
+                "y": 1228
+              },
+              "target": {
+                "x": 1180,
+                "y": 1468
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom:0.125",
+            "targetHandle": "top",
+            "path": "M 1060.5,1228L 1180,1468",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1060.5,
+              "y": 1228
+            },
+            "targetPoint": {
+              "x": 1180,
+              "y": 1468
+            },
+            "label": {
+              "x": 1120.25,
+              "y": 1348
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::decide0->fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::enregistrerChoix:[solutionValidee]": {
+            "caption": {
+              "x": 1182.2175841521405,
+              "y": 1283.8145123085058,
+              "lines": [
+                "[solutionValidee]"
+              ],
+              "width": 126,
+              "height": 18,
+              "text": "[solutionValidee]",
+              "source": {
+                "x": 1141,
+                "y": 1222
+              },
+              "target": {
+                "x": 1297,
+                "y": 1328
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "top",
+            "path": "M 1141,1222L 1297,1328",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1141,
+              "y": 1222
+            },
+            "targetPoint": {
+              "x": 1297,
+              "y": 1328
+            },
+            "label": {
+              "x": 1219,
+              "y": 1275
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::afficherIndisponibilite->fluxActionsMaisonIntelligente::comparerSolutions/__final__": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top:0.250",
+            "path": "M 457.5,1386L 1176,1469.0717967697244",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 457.5,
+              "y": 1386
+            },
+            "targetPoint": {
+              "x": 1176,
+              "y": 1469.0717967697244
+            },
+            "label": {
+              "x": 816.75,
+              "y": 1427.5358983848623
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::comparerSolutions/fluxActionsMaisonIntelligente::comparerSolutions::enregistrerChoix->fluxActionsMaisonIntelligente::comparerSolutions/__final__": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top:0.750",
+            "path": "M 1297,1386L 1184,1469.0717967697244",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1297,
+              "y": 1386
+            },
+            "targetPoint": {
+              "x": 1184,
+              "y": 1469.0717967697244
+            },
+            "label": {
+              "x": 1240.5,
+              "y": 1427.5358983848623
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/__initial__->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::merge0:[demandeSimulation]": {
+            "caption": {
+              "x": 1845,
+              "y": 85,
+              "lines": [
+                "[demandeSimulation]"
+              ],
+              "width": 138,
+              "height": 18,
+              "text": "[demandeSimulation]",
+              "source": {
+                "x": 1914,
+                "y": 72
+              },
+              "target": {
+                "x": 1914,
+                "y": 154
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1914,72L 1914,154",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1914,
+              "y": 72
+            },
+            "targetPoint": {
+              "x": 1914,
+              "y": 154
+            },
+            "label": {
+              "x": 1914,
+              "y": 113
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::merge0->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherFormulaireModification": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1914,202L 1917.545668153029,314.1381793007466",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1914,
+              "y": 202
+            },
+            "targetPoint": {
+              "x": 1917.545668153029,
+              "y": 314.1381793007466
+            },
+            "label": {
+              "x": 1915.7728340765145,
+              "y": 258.06908965037326
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherFormulaireModification->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::estimerConsequencesEnergetiques": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1914,1246L 1914,1328",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1914,
+              "y": 1246
+            },
+            "targetPoint": {
+              "x": 1914,
+              "y": 1328
+            },
+            "label": {
+              "x": 1914,
+              "y": 1287
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::estimerConsequencesEnergetiques->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherResultatsSimulation": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1914,1386L 1914,1468",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1914,
+              "y": 1386
+            },
+            "targetPoint": {
+              "x": 1914,
+              "y": 1468
+            },
+            "label": {
+              "x": 1914,
+              "y": 1427
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherResultatsSimulation->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::decide0": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1928.1826726121155,907.4262863188347L 1900.8173273878842,1065.4365473493938",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1928.1826726121155,
+              "y": 907.4262863188347
+            },
+            "targetPoint": {
+              "x": 1900.8173273878842,
+              "y": 1065.4365473493938
+            },
+            "label": {
+              "x": 1914.5,
+              "y": 986.4314168341143
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::decide0->fluxActionsMaisonIntelligente::simulerChangementProgramme/__final__:[annulation]": {
+            "caption": {
+              "x": 1951.260856600625,
+              "y": 1097.6695171588622,
+              "lines": [
+                "[annulation]"
+              ],
+              "width": 95,
+              "height": 18,
+              "text": "[annulation]",
+              "source": {
+                "x": 1900.8173273878842,
+                "y": 1113.4365473493938
+              },
+              "target": {
+                "x": 1990.5963352655594,
+                "y": 1095.3026625437628
+              },
+              "lineStyle": "straight",
+              "conflicts": 1,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top:0.250",
+            "path": "M 1900.8173273878842,1113.4365473493938L 1896.6361292102906,1259.5114188809187",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1900.8173273878842,
+              "y": 1113.4365473493938
+            },
+            "targetPoint": {
+              "x": 1896.6361292102906,
+              "y": 1259.5114188809187
+            },
+            "label": {
+              "x": 1898.7267282990874,
+              "y": 1186.4739831151562
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::decide0->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::appliquerModification:[validation]": {
+            "caption": {
+              "x": 1949.1014868318484,
+              "y": 1096.3174914107612,
+              "lines": [
+                "[validation]"
+              ],
+              "width": 95,
+              "height": 18,
+              "text": "[validation]",
+              "source": {
+                "x": 1946.8173273878842,
+                "y": 1089.4365473493938
+              },
+              "target": {
+                "x": 2094.8340563956353,
+                "y": 1136.6532809404168
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right",
+            "targetHandle": "top",
+            "path": "M 1946.8173273878842,1089.4365473493938L 2094.8340563956353,1136.6532809404168",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1946.8173273878842,
+              "y": 1089.4365473493938
+            },
+            "targetPoint": {
+              "x": 2094.8340563956353,
+              "y": 1136.6532809404168
+            },
+            "label": {
+              "x": 2020.8256918917598,
+              "y": 1113.0449141449053
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::decide0->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::merge0:[nouvelleSimulation]": {
+            "caption": {
+              "x": 2097.951915860718,
+              "y": 1081.0059917690733,
+              "lines": [
+                "[nouvelleSimulation]"
+              ],
+              "width": 144,
+              "height": 18,
+              "text": "[nouvelleSimulation]",
+              "source": {
+                "x": 1923.8173273878842,
+                "y": 1077.4365473493938
+              },
+              "target": {
+                "x": 1955,
+                "y": 178
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "right:0.250",
+            "targetHandle": "right",
+            "path": "M 1923.817,1077.437 L 2209,1092 L 2202,191 L 1955,178",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1923.8173273878842,
+              "y": 1077.4365473493938
+            },
+            "targetPoint": {
+              "x": 1955,
+              "y": 178
+            },
+            "label": {
+              "x": 2205.6532064299777,
+              "y": 661.2198562013835
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::appliquerModification->fluxActionsMaisonIntelligente::simulerChangementProgramme/__final__": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 2094.8340563956353,1194.6532809404168L 1900.6361292102906,1258.4396221111942",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 2094.8340563956353,
+              "y": 1194.6532809404168
+            },
+            "targetPoint": {
+              "x": 1900.6361292102906,
+              "y": 1258.4396221111942
+            },
+            "label": {
+              "x": 1997.735092802963,
+              "y": 1226.5464515258054
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherFormulaireModification->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::recupererDonneesEnergetiques": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1917.545668153029,372.1381793007466L 1925.4457600489764,542.29483409445",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1917.545668153029,
+              "y": 372.1381793007466
+            },
+            "targetPoint": {
+              "x": 1925.4457600489764,
+              "y": 542.29483409445
+            },
+            "label": {
+              "x": 1921.4957141010027,
+              "y": 457.21650669759833
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::recupererDonneesEnergetiques->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::calculerConsequencesEnergetiques": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 1925.4457600489764,600.29483409445L 1905.9489472727194,706.5373351693569",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1925.4457600489764,
+              "y": 600.29483409445
+            },
+            "targetPoint": {
+              "x": 1905.9489472727194,
+              "y": 706.5373351693569
+            },
+            "label": {
+              "x": 1915.697353660848,
+              "y": 653.4160846319035
+            }
+          },
+          "succession:fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::calculerConsequencesEnergetiques->fluxActionsMaisonIntelligente::simulerChangementProgramme/fluxActionsMaisonIntelligente::simulerChangementProgramme::afficherResultatsSimulation": {
+            "sourceHandle": "right",
+            "targetHandle": "right",
+            "path": "M 2025.4489472727194,735.5373351693569L 2030.6826726121155,878.4262863188347",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 2025.4489472727194,
+              "y": 735.5373351693569
+            },
+            "targetPoint": {
+              "x": 2030.6826726121155,
+              "y": 878.4262863188347
+            },
+            "label": {
+              "x": 2028.0658099424174,
+              "y": 806.9818107440958
+            }
+          }
+        }
+      }
+    }
+  }
+}
