@@ -1,0 +1,309 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "fluxConsulterEtatSysteme": {
+      "afv": {
+        "layout": {
+          "fluxConsulterEtatSysteme::consulterEtatSysteme": {
+            "x": 22,
+            "y": 22,
+            "parentKey": null,
+            "w": 545.5,
+            "h": 1774
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/__initial__": {
+            "x": 154,
+            "y": 672,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 12,
+            "h": 12
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherInterfaceMaintenance": {
+            "x": 54.5,
+            "y": 766,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 211,
+            "h": 58
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::collecterDonneesSysteme": {
+            "x": 71.5,
+            "y": 906,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 177,
+            "h": 58
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::analyserEtatSysteme": {
+            "x": 61,
+            "y": 1176,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 168,
+            "h": 58
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherEtatSysteme": {
+            "x": 287,
+            "y": 1176,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 168,
+            "h": 58
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherMessageIndisponibilite": {
+            "x": 258.5,
+            "y": 1414,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 225,
+            "h": 58
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::decide0": {
+            "x": 114,
+            "y": 1046,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 92,
+            "h": 48
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme/__final__": {
+            "x": 363,
+            "y": 1316,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 16,
+            "h": 16
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme::demandeConsultation": {
+            "x": 22,
+            "y": 1554,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 218,
+            "h": 58
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme::donneesDisponibles": {
+            "x": 264,
+            "y": 1554,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 211,
+            "h": 58
+          },
+          "fluxConsulterEtatSysteme::consulterEtatSysteme::donneesIndisponibles": {
+            "x": 22,
+            "y": 1694,
+            "parentKey": "fluxConsulterEtatSysteme::consulterEtatSysteme",
+            "w": 225,
+            "h": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {"succession:fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherMessageIndisponibilite->fluxConsulterEtatSysteme::consulterEtatSysteme/__final__":[{"x":509,"y":1340}]},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/__initial__->fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherInterfaceMaintenance:[demandeConsultation]": {
+            "caption": {
+              "x": 106.5,
+              "y": 719,
+              "lines": [
+                "[demandeConsultation]"
+              ],
+              "width": 151,
+              "height": 18,
+              "text": "[demandeConsultation]",
+              "source": {
+                "x": 182,
+                "y": 706
+              },
+              "target": {
+                "x": 182,
+                "y": 788
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 182,706L 182,788",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 182,
+              "y": 706
+            },
+            "targetPoint": {
+              "x": 182,
+              "y": 788
+            },
+            "label": {
+              "x": 182,
+              "y": 747
+            }
+          },
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherInterfaceMaintenance->fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::collecterDonneesSysteme": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 182,846L 182,928",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 182,
+              "y": 846
+            },
+            "targetPoint": {
+              "x": 182,
+              "y": 928
+            },
+            "label": {
+              "x": 182,
+              "y": 887
+            }
+          },
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::collecterDonneesSysteme->fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::decide0": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 182,986L 182,1068",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 182,
+              "y": 986
+            },
+            "targetPoint": {
+              "x": 182,
+              "y": 1068
+            },
+            "label": {
+              "x": 182,
+              "y": 1027
+            }
+          },
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::decide0->fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::analyserEtatSysteme:[donneesDisponibles]": {
+            "caption": {
+              "x": 118.78318659228228,
+              "y": 1154.1185799621903,
+              "lines": [
+                "[donneesDispon",
+                "ibles]"
+              ],
+              "width": 107,
+              "height": 30,
+              "text": "[donneesDisponibles]",
+              "source": {
+                "x": 182,
+                "y": 1116
+              },
+              "target": {
+                "x": 167,
+                "y": 1198
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 182,1116L 167,1198",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 182,
+              "y": 1116
+            },
+            "targetPoint": {
+              "x": 167,
+              "y": 1198
+            },
+            "label": {
+              "x": 174.5,
+              "y": 1157
+            }
+          },
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::decide0->fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherEtatSysteme": {
+            "sourceHandle": "right",
+            "targetHandle": "top",
+            "path": "M 228,1092L 393,1198",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 228,
+              "y": 1092
+            },
+            "targetPoint": {
+              "x": 393,
+              "y": 1198
+            },
+            "label": {
+              "x": 310.5,
+              "y": 1145
+            }
+          },
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherEtatSysteme->fluxConsulterEtatSysteme::consulterEtatSysteme/__final__": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 393,1256L 393,1338",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 393,
+              "y": 1256
+            },
+            "targetPoint": {
+              "x": 393,
+              "y": 1338
+            },
+            "label": {
+              "x": 393,
+              "y": 1297
+            }
+          },
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/__final__->fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherMessageIndisponibilite:[donneesIndisponibles]": {
+            "caption": {
+              "x": 314.5,
+              "y": 1367,
+              "lines": [
+                "[donneesIndisponibles]"
+              ],
+              "width": 157,
+              "height": 18,
+              "text": "[donneesIndisponibles]",
+              "source": {
+                "x": 393,
+                "y": 1354
+              },
+              "target": {
+                "x": 393,
+                "y": 1436
+              },
+              "lineStyle": "straight",
+              "conflicts": 0,
+              "crossings": 0
+            },
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 393,1354L 393,1436",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 393,
+              "y": 1354
+            },
+            "targetPoint": {
+              "x": 393,
+              "y": 1436
+            },
+            "label": {
+              "x": 393,
+              "y": 1395
+            }
+          },
+          "succession:fluxConsulterEtatSysteme::consulterEtatSysteme/fluxConsulterEtatSysteme::consulterEtatSysteme::afficherMessageIndisponibilite->fluxConsulterEtatSysteme::consulterEtatSysteme/__final__": {
+            "sourceHandle": "top:0.875",
+            "targetHandle": "right",
+            "path": "M 477.375,1436 L 509,1340 L 401,1346",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 477.375,
+              "y": 1436
+            },
+            "targetPoint": {
+              "x": 401,
+              "y": 1346
+            },
+            "label": {
+              "x": 507.31188785504406,
+              "y": 1345.124387855044
+            }
+          }
+        }
+      }
+    }
+  }
+}
