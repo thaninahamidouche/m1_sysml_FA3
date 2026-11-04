@@ -41,15 +41,15 @@
             "h": 58
           },
           "fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::enregistrerModifications": {
-            "x": 173,
-            "y": 1456,
+            "x": 170.02804113908826,
+            "y": 1417.364534808147,
             "parentKey": "fluxGererCalendrierPreferences::gererCalendrierPreferences",
             "w": 184,
             "h": 58
           },
           "fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::afficherConfirmation": {
-            "x": 415,
-            "y": 1456,
+            "x": 413.51402056954413,
+            "y": 1408.4486582254117,
             "parentKey": "fluxGererCalendrierPreferences::gererCalendrierPreferences",
             "w": 168,
             "h": 58
@@ -63,7 +63,7 @@
           },
           "fluxGererCalendrierPreferences::gererCalendrierPreferences/__final__": {
             "x": 135,
-            "y": 1596,
+            "y": 1642.0653623441324,
             "parentKey": "fluxGererCalendrierPreferences::gererCalendrierPreferences",
             "w": 16,
             "h": 16
@@ -196,8 +196,8 @@
           },
           "succession:fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::decide0->fluxGererCalendrierPreferences::gererCalendrierPreferences/__final__:[annulation]": {
             "caption": {
-              "x": 114.4744761141356,
-              "y": 1374.699945710692,
+              "x": 114.47865823904996,
+              "y": 1374.6999620439833,
               "lines": [
                 "[annulation]"
               ],
@@ -210,7 +210,7 @@
               },
               "target": {
                 "x": 161,
-                "y": 1619.0717967697244
+                "y": 1665.1371591138568
               },
               "lineStyle": "straight",
               "conflicts": 0,
@@ -218,7 +218,7 @@
             },
             "sourceHandle": "bottom:0.250",
             "targetHandle": "top:0.250",
-            "path": "M 162,1384L 161,1619.0717967697244",
+            "path": "M 162,1384L 161,1665.1371591138568",
             "lineStyle": "straight",
             "sourcePoint": {
               "x": 162,
@@ -226,17 +226,17 @@
             },
             "targetPoint": {
               "x": 161,
-              "y": 1619.0717967697244
+              "y": 1665.1371591138568
             },
             "label": {
               "x": 161.5,
-              "y": 1501.5358983848623
+              "y": 1524.5685795569284
             }
           },
           "succession:fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::decide0->fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::enregistrerModifications:[validation]": {
             "caption": {
-              "x": 175.15924801494631,
-              "y": 1417.2750817375058,
+              "x": 184.81731812223265,
+              "y": 1407.7203279509263,
               "lines": [
                 "[validation]"
               ],
@@ -248,64 +248,64 @@
                 "y": 1396
               },
               "target": {
-                "x": 287,
-                "y": 1478
+                "x": 284.02804113908826,
+                "y": 1439.364534808147
               },
               "lineStyle": "straight",
               "conflicts": 0,
-              "crossings": 1
+              "crossings": 0
             },
             "sourceHandle": "bottom",
             "targetHandle": "top",
-            "path": "M 185,1396L 287,1478",
+            "path": "M 185,1396L 284.02804113908826,1439.364534808147",
             "lineStyle": "straight",
             "sourcePoint": {
               "x": 185,
               "y": 1396
             },
             "targetPoint": {
-              "x": 287,
-              "y": 1478
+              "x": 284.02804113908826,
+              "y": 1439.364534808147
             },
             "label": {
-              "x": 236,
-              "y": 1437
+              "x": 234.51402056954413,
+              "y": 1417.6822674040736
             }
           },
           "succession:fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::decide0->fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::afficherConfirmation": {
             "sourceHandle": "right",
             "targetHandle": "top",
-            "path": "M 231,1372L 521,1478",
+            "path": "M 231,1372L 519.5140205695441,1430.4486582254117",
             "lineStyle": "straight",
             "sourcePoint": {
               "x": 231,
               "y": 1372
             },
             "targetPoint": {
-              "x": 521,
-              "y": 1478
+              "x": 519.5140205695441,
+              "y": 1430.4486582254117
             },
             "label": {
-              "x": 376,
-              "y": 1425
+              "x": 375.25701028477204,
+              "y": 1401.2243291127058
             }
           },
           "succession:fluxGererCalendrierPreferences::gererCalendrierPreferences/fluxGererCalendrierPreferences::gererCalendrierPreferences::afficherConfirmation->fluxGererCalendrierPreferences::gererCalendrierPreferences/__final__": {
             "sourceHandle": "bottom",
             "targetHandle": "top",
-            "path": "M 521,1536L 165,1618",
+            "path": "M 519.5140205695441,1488.4486582254117L 165,1664.0653623441324",
             "lineStyle": "straight",
             "sourcePoint": {
-              "x": 521,
-              "y": 1536
+              "x": 519.5140205695441,
+              "y": 1488.4486582254117
             },
             "targetPoint": {
               "x": 165,
-              "y": 1618
+              "y": 1664.0653623441324
             },
             "label": {
-              "x": 343,
-              "y": 1577
+              "x": 342.25701028477204,
+              "y": 1576.2570102847722
             }
           }
         }
