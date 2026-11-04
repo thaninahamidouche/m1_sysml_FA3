@@ -1,0 +1,231 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "maisonIntelligente": {
+      "iv": {
+        "layout": {
+          "maisonIntelligente::contexte": {
+            "x": -348.5,
+            "y": -69,
+            "parentKey": null,
+            "w": 1535,
+            "h": 927
+          },
+          "maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "x": 635.5,
+            "y": 448,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 191,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::habitants": {
+            "x": 1081,
+            "y": 28,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::technicienMaintenance": {
+            "x": 571,
+            "y": 130.5,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::panneauxPhotovoltaiques": {
+            "x": 316.5,
+            "y": 253,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::batterie": {
+            "x": 16,
+            "y": 463,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::equipementsConnectes": {
+            "x": 271,
+            "y": 638,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::capteurs": {
+            "x": 391,
+            "y": 833,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::serviceMeteo": {
+            "x": 721,
+            "y": 853,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "maisonIntelligente::contexte::reseauElectrique": {
+            "x": 1351,
+            "y": 733,
+            "parentKey": "maisonIntelligente::contexte",
+            "collapsedW": 168,
+            "collapsedH": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "connect:maisonIntelligente::contexte::habitants->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "bottom",
+            "targetHandle": "top",
+            "path": "M 816.5,17L 382.5,379",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 816.5,
+              "y": 17
+            },
+            "targetPoint": {
+              "x": 382.5,
+              "y": 379
+            },
+            "label": {
+              "x": 599.5,
+              "y": 198
+            }
+          },
+          "connect:maisonIntelligente::contexte::technicienMaintenance->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.125",
+            "path": "M 390.5,90.5L 287,386.25",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 390.5,
+              "y": 90.5
+            },
+            "targetPoint": {
+              "x": 287,
+              "y": 386.25
+            },
+            "label": {
+              "x": 338.75,
+              "y": 238.375
+            }
+          },
+          "connect:maisonIntelligente::contexte::panneauxPhotovoltaiques->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.250",
+            "path": "M 145,213L 287,393.5",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 145,
+              "y": 213
+            },
+            "targetPoint": {
+              "x": 287,
+              "y": 393.5
+            },
+            "label": {
+              "x": 216,
+              "y": 303.25
+            }
+          },
+          "connect:maisonIntelligente::contexte::batterie->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.375",
+            "path": "M -164.5,423L 287,400.75",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": -164.5,
+              "y": 423
+            },
+            "targetPoint": {
+              "x": 287,
+              "y": 400.75
+            },
+            "label": {
+              "x": 61.25,
+              "y": 411.875
+            }
+          },
+          "connect:maisonIntelligente::contexte::equipementsConnectes->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.625",
+            "path": "M 90.5,598L 287,415.25",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 90.5,
+              "y": 598
+            },
+            "targetPoint": {
+              "x": 287,
+              "y": 415.25
+            },
+            "label": {
+              "x": 188.75,
+              "y": 506.625
+            }
+          },
+          "connect:maisonIntelligente::contexte::capteurs->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.750",
+            "path": "M 210.5,793L 287,422.5",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 210.5,
+              "y": 793
+            },
+            "targetPoint": {
+              "x": 287,
+              "y": 422.5
+            },
+            "label": {
+              "x": 248.75,
+              "y": 607.75
+            }
+          },
+          "connect:maisonIntelligente::contexte::serviceMeteo->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 540.5,813L 287,408",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 540.5,
+              "y": 813
+            },
+            "targetPoint": {
+              "x": 287,
+              "y": 408
+            },
+            "label": {
+              "x": 413.75,
+              "y": 610.5
+            }
+          },
+          "connect:maisonIntelligente::contexte::reseauElectrique->maisonIntelligente::contexte::systemeGestionEnergetique": {
+            "sourceHandle": "top",
+            "targetHandle": "bottom",
+            "path": "M 1086.5,664L 382.5,437",
+            "lineStyle": "straight",
+            "sourcePoint": {
+              "x": 1086.5,
+              "y": 664
+            },
+            "targetPoint": {
+              "x": 382.5,
+              "y": 437
+            },
+            "label": {
+              "x": 734.5,
+              "y": 550.5
+            }
+          }
+        }
+      }
+    }
+  }
+}

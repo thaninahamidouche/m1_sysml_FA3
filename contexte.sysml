@@ -21,20 +21,22 @@ package maisonIntelligente {
 
         part reseauElectrique;
 
-        connect habitants to systemeGestionEnergetique;
+        flow utilise from habitants to systemeGestionEnergetique;
 
-        connect technicienMaintenance to systemeGestionEnergetique;
+        flow configure from technicienMaintenance to systemeGestionEnergetique;
 
-        connect panneauxPhotovoltaiques to systemeGestionEnergetique;
+        flow alimente from reseauElectrique to systemeGestionEnergetique;
 
-        connect batterie to systemeGestionEnergetique;
+        flow transmetProduction from panneauxPhotovoltaiques to systemeGestionEnergetique;
 
-        connect equipementsConnectes to systemeGestionEnergetique;
+        flow transmetEtatCharge from batterie to systemeGestionEnergetique;
 
-        connect capteurs to systemeGestionEnergetique;
+        flow commandeBatterie from systemeGestionEnergetique to batterie;
 
-        connect serviceMeteo to systemeGestionEnergetique;
+        flow pilote from systemeGestionEnergetique to equipementsConnectes;
 
-        connect reseauElectrique to systemeGestionEnergetique;
+        flow transmetMesures from capteurs to systemeGestionEnergetique;
+
+        flow fournitPrevisions from serviceMeteo to systemeGestionEnergetique;
     }
 }
