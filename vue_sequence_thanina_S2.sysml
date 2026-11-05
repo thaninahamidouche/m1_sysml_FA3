@@ -1,4 +1,4 @@
-occurrenceccurrence comparerSolutionsS2 {
+occurrence comparerSolutionsS2 {
 
     part application: ApplicationMaison;
     part gestionnaire: GestionnaireComparaison;
