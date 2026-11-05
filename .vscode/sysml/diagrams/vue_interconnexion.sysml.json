@@ -1,0 +1,963 @@
+{
+  "version": 9,
+  "structuredDefaults": "inherited",
+  "anchors": {
+    "vueGeneraleMaisonIntelligente": {
+      "iv": {
+        "layout": {
+          "vueGeneraleMaisonIntelligente::systeme": {
+            "x": 16,
+            "y": 688,
+            "parentKey": null,
+            "w": 953,
+            "h": 364
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique": {
+            "x": 16,
+            "y": 16,
+            "parentKey": null,
+            "w": 1607,
+            "h": 624
+          },
+          "vueGeneraleMaisonIntelligente::UniteTraitement": {
+            "x": 1024,
+            "y": 970,
+            "parentKey": null,
+            "w": 461,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::ModuleCommunication": {
+            "x": 1024,
+            "y": 688,
+            "parentKey": null,
+            "w": 296,
+            "h": 234
+          },
+          "vueGeneraleMaisonIntelligente::InterfaceUtilisateur": {
+            "x": 16,
+            "y": 1100,
+            "parentKey": null,
+            "w": 269,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::ModuleMaintenance": {
+            "x": 338,
+            "y": 1100,
+            "parentKey": null,
+            "w": 283,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::ModuleAlimentation": {
+            "x": 674,
+            "y": 1146,
+            "parentKey": null,
+            "w": 662,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement": {
+            "x": 756,
+            "y": 296.3333333333333,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique",
+            "w": 461,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::communication": {
+            "x": 1289,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique",
+            "w": 296,
+            "h": 234
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::utilisateur": {
+            "x": 1302.5,
+            "y": 314,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique",
+            "w": 269,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::maintenance": {
+            "x": 1295.5,
+            "y": 474,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique",
+            "w": 283,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation": {
+            "x": 22,
+            "y": 296.3333333333333,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique",
+            "w": 662,
+            "h": 128
+          },
+          "vueGeneraleMaisonIntelligente::Processeur": {
+            "x": 1542,
+            "y": 688,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::Memoire": {
+            "x": 1542,
+            "y": 794,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::InterfaceReseau": {
+            "x": 1542,
+            "y": 900,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::InterfaceEquipements": {
+            "x": 1542,
+            "y": 1006,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::TerminalUtilisateur": {
+            "x": 1542,
+            "y": 1112,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::InterfaceDiagnostic": {
+            "x": 1388,
+            "y": 1218,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::ConvertisseurAlimentation": {
+            "x": 16,
+            "y": 1276,
+            "parentKey": null,
+            "w": 191,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::ProtectionElectrique": {
+            "x": 268,
+            "y": 1276,
+            "parentKey": null,
+            "w": 168,
+            "h": 58
+          },
+          "vueGeneraleMaisonIntelligente::systeme::traitement": {
+            "x": 389,
+            "y": 156.66666666666666,
+            "parentKey": "vueGeneraleMaisonIntelligente::systeme",
+            "collapsedW": 211,
+            "collapsedH": 86
+          },
+          "vueGeneraleMaisonIntelligente::systeme::communication": {
+            "x": 672,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::systeme",
+            "collapsedW": 259,
+            "collapsedH": 86
+          },
+          "vueGeneraleMaisonIntelligente::systeme::utilisateur": {
+            "x": 675.5,
+            "y": 166,
+            "parentKey": "vueGeneraleMaisonIntelligente::systeme",
+            "collapsedW": 252,
+            "collapsedH": 72
+          },
+          "vueGeneraleMaisonIntelligente::systeme::maintenance": {
+            "x": 682,
+            "y": 270,
+            "parentKey": "vueGeneraleMaisonIntelligente::systeme",
+            "collapsedW": 239,
+            "collapsedH": 72
+          },
+          "vueGeneraleMaisonIntelligente::systeme::alimentation": {
+            "x": 22,
+            "y": 156.66666666666666,
+            "parentKey": "vueGeneraleMaisonIntelligente::systeme",
+            "collapsedW": 295,
+            "collapsedH": 86
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement::processeur": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement::memoire": {
+            "x": 271,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::communication::reseau": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::communication",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::communication::equipements": {
+            "x": 22,
+            "y": 154,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::communication",
+            "collapsedW": 252,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::utilisateur::terminal": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::utilisateur",
+            "collapsedW": 225,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::maintenance::diagnostic": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::maintenance",
+            "collapsedW": 239,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation::convertisseur": {
+            "x": 340,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation",
+            "collapsedW": 300,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation::protection": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation",
+            "collapsedW": 246,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::UniteTraitement::processeur": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::UniteTraitement",
+            "collapsedW": 177,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::UniteTraitement::memoire": {
+            "x": 271,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::UniteTraitement",
+            "collapsedW": 168,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::ModuleCommunication::reseau": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::ModuleCommunication",
+            "collapsedW": 184,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::ModuleCommunication::equipements": {
+            "x": 22,
+            "y": 154,
+            "parentKey": "vueGeneraleMaisonIntelligente::ModuleCommunication",
+            "collapsedW": 252,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::InterfaceUtilisateur::terminal": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::InterfaceUtilisateur",
+            "collapsedW": 225,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::ModuleMaintenance::diagnostic": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::ModuleMaintenance",
+            "collapsedW": 239,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::ModuleAlimentation::convertisseur": {
+            "x": 340,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::ModuleAlimentation",
+            "collapsedW": 300,
+            "collapsedH": 58
+          },
+          "vueGeneraleMaisonIntelligente::ModuleAlimentation::protection": {
+            "x": 22,
+            "y": 48,
+            "parentKey": "vueGeneraleMaisonIntelligente::ModuleAlimentation",
+            "collapsedW": 246,
+            "collapsedH": 58
+          }
+        },
+        "ports": {},
+        "edgeRoutes": {},
+        "edgeAnchors": {},
+        "edgeGeometry": {
+          "connect:vueGeneraleMaisonIntelligente::systeme::traitement->vueGeneraleMaisonIntelligente::systeme::communication": {
+            "sourceHandle": "right:0.250",
+            "targetHandle": "left",
+            "path": "M 616,866.167 L 662,866.167 Q 670,866.167 670,858.167 L 670,787 Q 670,779 678,779 L 688,779",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 616,
+              "y": 866.1666666666666
+            },
+            "targetPoint": {
+              "x": 688,
+              "y": 779
+            },
+            "label": {
+              "x": 670,
+              "y": 840.5833333333333
+            },
+            "points": [
+              {
+                "x": 616,
+                "y": 866.1666666666666
+              },
+              {
+                "x": 670,
+                "y": 866.1666666666666
+              },
+              {
+                "x": 670,
+                "y": 779
+              },
+              {
+                "x": 688,
+                "y": 779
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::systeme::traitement->vueGeneraleMaisonIntelligente::systeme::utilisateur": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 616,887.667 L 677.333,887.667 Q 678.5,887.667 678.5,888.833 L 678.5,888.833 Q 678.5,890 679.667,890 L 691.5,890",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 616,
+              "y": 887.6666666666666
+            },
+            "targetPoint": {
+              "x": 691.5,
+              "y": 890
+            },
+            "label": {
+              "x": 654.9166666666667,
+              "y": 887.6666666666666
+            },
+            "points": [
+              {
+                "x": 616,
+                "y": 887.6666666666666
+              },
+              {
+                "x": 678.5,
+                "y": 887.6666666666666
+              },
+              {
+                "x": 678.5,
+                "y": 890
+              },
+              {
+                "x": 691.5,
+                "y": 890
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::systeme::traitement->vueGeneraleMaisonIntelligente::systeme::maintenance": {
+            "sourceHandle": "right:0.750",
+            "targetHandle": "left",
+            "path": "M 616,909.167 L 626,909.167 Q 634,909.167 634,917.167 L 634,941.667 Q 634,949.667 642,949.667 L 672,949.667 Q 680,949.667 680,957.667 L 680,986 Q 680,994 688,994 L 698,994",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 616,
+              "y": 909.1666666666666
+            },
+            "targetPoint": {
+              "x": 698,
+              "y": 994
+            },
+            "label": {
+              "x": 658.9166666666667,
+              "y": 949.6666666666666
+            },
+            "points": [
+              {
+                "x": 616,
+                "y": 909.1666666666666
+              },
+              {
+                "x": 634,
+                "y": 909.1666666666666
+              },
+              {
+                "x": 634,
+                "y": 949.6666666666666
+              },
+              {
+                "x": 680,
+                "y": 949.6666666666666
+              },
+              {
+                "x": 680,
+                "y": 994
+              },
+              {
+                "x": 698,
+                "y": 994
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::systeme::alimentation->vueGeneraleMaisonIntelligente::systeme::traitement": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 333,887.667 L 361,887.667 Q 369,887.667 369,895.667 L 369,903.667 Q 369,911.667 377,911.667 L 379,911.667 Q 387,911.667 387,903.667 L 387,895.667 Q 387,887.667 395,887.667 L 405,887.667",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 333,
+              "y": 887.6666666666666
+            },
+            "targetPoint": {
+              "x": 405,
+              "y": 887.6666666666666
+            },
+            "label": {
+              "x": 369,
+              "y": 911.6666666666666
+            },
+            "points": [
+              {
+                "x": 333,
+                "y": 887.6666666666666
+              },
+              {
+                "x": 369,
+                "y": 887.6666666666666
+              },
+              {
+                "x": 369,
+                "y": 911.6666666666666
+              },
+              {
+                "x": 387,
+                "y": 911.6666666666666
+              },
+              {
+                "x": 387,
+                "y": 887.6666666666666
+              },
+              {
+                "x": 405,
+                "y": 887.6666666666666
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::systeme::alimentation->vueGeneraleMaisonIntelligente::systeme::communication": {
+            "sourceHandle": "right:0.250",
+            "targetHandle": "left:0.250",
+            "path": "M 333,866.167 L 336,866.167 Q 339,866.167 339,863.167 L 339,765.5 Q 339,757.5 347,757.5 L 688,757.5",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 333,
+              "y": 866.1666666666666
+            },
+            "targetPoint": {
+              "x": 688,
+              "y": 757.5
+            },
+            "label": {
+              "x": 456.1666666666667,
+              "y": 757.5
+            },
+            "points": [
+              {
+                "x": 333,
+                "y": 866.1666666666666
+              },
+              {
+                "x": 339,
+                "y": 866.1666666666666
+              },
+              {
+                "x": 339,
+                "y": 757.5
+              },
+              {
+                "x": 688,
+                "y": 757.5
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::systeme::alimentation->vueGeneraleMaisonIntelligente::systeme::utilisateur": {
+            "sourceHandle": "right:0.750",
+            "targetHandle": "left:0.250",
+            "path": "M 333,909.167 L 351,909.167 Q 359,909.167 359,917.167 L 359,931.667 Q 359,939.667 367,939.667 L 660.5,939.667 Q 668.5,939.667 668.5,931.667 L 668.5,880 Q 668.5,872 676.5,872 L 691.5,872",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 333,
+              "y": 909.1666666666666
+            },
+            "targetPoint": {
+              "x": 691.5,
+              "y": 872
+            },
+            "label": {
+              "x": 530.8333333333333,
+              "y": 939.6666666666666
+            },
+            "points": [
+              {
+                "x": 333,
+                "y": 909.1666666666666
+              },
+              {
+                "x": 359,
+                "y": 909.1666666666666
+              },
+              {
+                "x": 359,
+                "y": 939.6666666666666
+              },
+              {
+                "x": 668.5,
+                "y": 939.6666666666666
+              },
+              {
+                "x": 668.5,
+                "y": 872
+              },
+              {
+                "x": 691.5,
+                "y": 872
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::systeme::alimentation->vueGeneraleMaisonIntelligente::systeme::maintenance": {
+            "sourceHandle": "right:0.125",
+            "targetHandle": "left:0.250",
+            "path": "M 333,855.417 L 341,855.417 Q 349,855.417 349,863.417 L 349,968 Q 349,976 357,976 L 698,976",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 333,
+              "y": 855.4166666666666
+            },
+            "targetPoint": {
+              "x": 698,
+              "y": 976
+            },
+            "label": {
+              "x": 455.2083333333333,
+              "y": 976
+            },
+            "points": [
+              {
+                "x": 333,
+                "y": 855.4166666666666
+              },
+              {
+                "x": 349,
+                "y": 855.4166666666666
+              },
+              {
+                "x": 349,
+                "y": 976
+              },
+              {
+                "x": 698,
+                "y": 976
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement::processeur->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement::memoire": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 971,389.333 L 1043,389.333",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 971,
+              "y": 389.3333333333333
+            },
+            "targetPoint": {
+              "x": 1043,
+              "y": 389.3333333333333
+            },
+            "label": {
+              "x": 1007,
+              "y": 389.3333333333333
+            },
+            "points": [
+              {
+                "x": 971,
+                "y": 389.3333333333333
+              },
+              {
+                "x": 1043,
+                "y": 389.3333333333333
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation::protection->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation::convertisseur": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 306,389.333 L 378,389.333",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 306,
+              "y": 389.3333333333333
+            },
+            "targetPoint": {
+              "x": 378,
+              "y": 389.3333333333333
+            },
+            "label": {
+              "x": 342,
+              "y": 389.3333333333333
+            },
+            "points": [
+              {
+                "x": 306,
+                "y": 389.3333333333333
+              },
+              {
+                "x": 378,
+                "y": 389.3333333333333
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::communication": {
+            "sourceHandle": "right:0.250",
+            "targetHandle": "left:0.625",
+            "path": "M 1233,344.333 L 1279,344.333 Q 1287,344.333 1287,336.333 L 1287,218.25 Q 1287,210.25 1295,210.25 L 1305,210.25",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 1233,
+              "y": 344.3333333333333
+            },
+            "targetPoint": {
+              "x": 1305,
+              "y": 210.25
+            },
+            "label": {
+              "x": 1287,
+              "y": 295.29166666666663
+            },
+            "points": [
+              {
+                "x": 1233,
+                "y": 344.3333333333333
+              },
+              {
+                "x": 1287,
+                "y": 344.3333333333333
+              },
+              {
+                "x": 1287,
+                "y": 210.25
+              },
+              {
+                "x": 1305,
+                "y": 210.25
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::utilisateur": {
+            "sourceHandle": "right",
+            "targetHandle": "left:0.750",
+            "path": "M 1233,376.333 L 1301.5,376.333 Q 1309.5,376.333 1309.5,384.333 L 1309.5,421.5 Q 1309.5,426 1314,426 L 1318.5,426",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 1233,
+              "y": 376.3333333333333
+            },
+            "targetPoint": {
+              "x": 1318.5,
+              "y": 426
+            },
+            "label": {
+              "x": 1300.5833333333333,
+              "y": 376.3333333333333
+            },
+            "points": [
+              {
+                "x": 1233,
+                "y": 376.3333333333333
+              },
+              {
+                "x": 1309.5,
+                "y": 376.3333333333333
+              },
+              {
+                "x": 1309.5,
+                "y": 426
+              },
+              {
+                "x": 1318.5,
+                "y": 426
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::maintenance": {
+            "sourceHandle": "right:0.750",
+            "targetHandle": "left:0.750",
+            "path": "M 1233,408.333 L 1285.5,408.333 Q 1293.5,408.333 1293.5,416.333 L 1293.5,578 Q 1293.5,586 1301.5,586 L 1311.5,586",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 1233,
+              "y": 408.3333333333333
+            },
+            "targetPoint": {
+              "x": 1311.5,
+              "y": 586
+            },
+            "label": {
+              "x": 1293.5,
+              "y": 475.91666666666663
+            },
+            "points": [
+              {
+                "x": 1233,
+                "y": 408.3333333333333
+              },
+              {
+                "x": 1293.5,
+                "y": 408.3333333333333
+              },
+              {
+                "x": 1293.5,
+                "y": 586
+              },
+              {
+                "x": 1311.5,
+                "y": 586
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::traitement": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 700,376.333 L 772,376.333",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 700,
+              "y": 376.3333333333333
+            },
+            "targetPoint": {
+              "x": 772,
+              "y": 376.3333333333333
+            },
+            "label": {
+              "x": 736,
+              "y": 376.3333333333333
+            },
+            "points": [
+              {
+                "x": 700,
+                "y": 376.3333333333333
+              },
+              {
+                "x": 772,
+                "y": 376.3333333333333
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::communication": {
+            "sourceHandle": "right:0.250",
+            "targetHandle": "left:0.375",
+            "path": "M 700,344.333 L 704,344.333 Q 708,344.333 708,340.333 L 708,159.75 Q 708,151.75 716,151.75 L 1305,151.75",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 700,
+              "y": 344.3333333333333
+            },
+            "targetPoint": {
+              "x": 1305,
+              "y": 151.75
+            },
+            "label": {
+              "x": 906.2083333333333,
+              "y": 151.75
+            },
+            "points": [
+              {
+                "x": 700,
+                "y": 344.3333333333333
+              },
+              {
+                "x": 708,
+                "y": 344.3333333333333
+              },
+              {
+                "x": 708,
+                "y": 151.75
+              },
+              {
+                "x": 1305,
+                "y": 151.75
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::utilisateur": {
+            "sourceHandle": "right:0.750",
+            "targetHandle": "left:0.250",
+            "path": "M 700,408.333 L 720,408.333 Q 728,408.333 728,416.333 L 728,446.333 Q 728,454.333 736,454.333 L 1291.5,454.333 Q 1299.5,454.333 1299.5,446.333 L 1299.5,370 Q 1299.5,362 1307.5,362 L 1318.5,362",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 700,
+              "y": 408.3333333333333
+            },
+            "targetPoint": {
+              "x": 1318.5,
+              "y": 362
+            },
+            "label": {
+              "x": 1032.4166666666665,
+              "y": 454.3333333333333
+            },
+            "points": [
+              {
+                "x": 700,
+                "y": 408.3333333333333
+              },
+              {
+                "x": 728,
+                "y": 408.3333333333333
+              },
+              {
+                "x": 728,
+                "y": 454.3333333333333
+              },
+              {
+                "x": 1299.5,
+                "y": 454.3333333333333
+              },
+              {
+                "x": 1299.5,
+                "y": 362
+              },
+              {
+                "x": 1318.5,
+                "y": 362
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::alimentation->vueGeneraleMaisonIntelligente::SystemeGestionEnergetique::maintenance": {
+            "sourceHandle": "right:0.125",
+            "targetHandle": "left:0.250",
+            "path": "M 700,328.333 L 710,328.333 Q 718,328.333 718,336.333 L 718,514 Q 718,522 726,522 L 1311.5,522",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 700,
+              "y": 328.3333333333333
+            },
+            "targetPoint": {
+              "x": 1311.5,
+              "y": 522
+            },
+            "label": {
+              "x": 908.9166666666667,
+              "y": 522
+            },
+            "points": [
+              {
+                "x": 700,
+                "y": 328.3333333333333
+              },
+              {
+                "x": 718,
+                "y": 328.3333333333333
+              },
+              {
+                "x": 718,
+                "y": 522
+              },
+              {
+                "x": 1311.5,
+                "y": 522
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::UniteTraitement::processeur->vueGeneraleMaisonIntelligente::UniteTraitement::memoire": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 1223,1047 L 1295,1047",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 1223,
+              "y": 1047
+            },
+            "targetPoint": {
+              "x": 1295,
+              "y": 1047
+            },
+            "label": {
+              "x": 1259,
+              "y": 1047
+            },
+            "points": [
+              {
+                "x": 1223,
+                "y": 1047
+              },
+              {
+                "x": 1295,
+                "y": 1047
+              }
+            ],
+            "corner": 8
+          },
+          "connect:vueGeneraleMaisonIntelligente::ModuleAlimentation::protection->vueGeneraleMaisonIntelligente::ModuleAlimentation::convertisseur": {
+            "sourceHandle": "right",
+            "targetHandle": "left",
+            "path": "M 942,1223 L 1014,1223",
+            "lineStyle": "orthogonal",
+            "sourcePoint": {
+              "x": 942,
+              "y": 1223
+            },
+            "targetPoint": {
+              "x": 1014,
+              "y": 1223
+            },
+            "label": {
+              "x": 978,
+              "y": 1223
+            },
+            "points": [
+              {
+                "x": 942,
+                "y": 1223
+              },
+              {
+                "x": 1014,
+                "y": 1223
+              }
+            ],
+            "corner": 8
+          }
+        },
+        "lineStyle": "orthogonal"
+      }
+    }
+  }
+}
